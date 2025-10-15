@@ -1,0 +1,62 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- OS / System ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & temp files ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# --- Environment & config secrets ---
+.env
+.env.local
+.env.production
+.env.development
+*.key
+*.pem
+
+# --- PyInstaller ---
+build/
+dist/
+*.spec
+
+# --- Database / Cache ---
+*.db
+*.sqlite3
+*.db-journal
+
+# --- Jupyter / notebooks ---
+.ipynb_checkpoints/
+
+# --- Compiled / Binary ---
+*.so
+*.dll
+*.exe
+*.bin
+
+# --- Misc ---
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
