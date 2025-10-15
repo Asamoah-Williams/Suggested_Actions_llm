@@ -17,7 +17,7 @@ load_dotenv()
 TO_EMAILS = [
     "g.agyeabour@awcghana.com",
     "m.williams@awcghana.com",
-    "patrick@awcghana.com",
+    # "patrick@awcghana.com",
     "s.namoafo@awcghana.com",
     "b.oagyemang@awcghana.com",
 ]
@@ -227,7 +227,7 @@ def gpt_summary():
     dashboard_name = None
     dashboard_link = None
     link_info = get_published_address("KRI")
-    print("📊 Dashboard link info:", link_info)
+    # print("📊 Dashboard link info:", link_info)
     
     email_body = summary_text 
     if link_info:
